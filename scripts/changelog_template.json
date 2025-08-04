@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "date": "2025-07-13",
+  "changes": [
+    {
+      "type": "feature",
+      "description": "New feature description here"
+    },
+    {
+      "type": "improvement", 
+      "description": "Improvement description here"
+    },
+    {
+      "type": "bugfix",
+      "description": "Bug fix description here"
+    },
+    {
+      "type": "security",
+      "description": "Security fix description here"
+    },
+    {
+      "type": "experimental",
+      "description": "Experimental feature description here"
+    }
+  ],
+  "breaking_changes": [
+    {
+      "description": "Breaking change description here",
+      "migration_guide": "How to migrate from previous version"
+    }
+  ],
+  "known_issues": [
+    {
+      "description": "Known issue description",
+      "workaround": "Workaround if available"
+    }
+  ]
+}

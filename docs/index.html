@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traqify - Personal Finance Dashboard</title>
+    <meta name="description" content="A comprehensive desktop application for personal finance management built with modern Python technologies">
+    <meta name="keywords" content="personal finance, expense tracker, budget planner, investment tracker, python, pyside6">
+    <meta name="author" content="Your Name">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/traqify/">
+    <meta property="og:title" content="Traqify - Personal Finance Dashboard">
+    <meta property="og:description" content="Take control of your financial future with Traqify - a comprehensive personal finance management application">
+    <meta property="og:image" content="https://yourusername.github.io/traqify/images/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourusername.github.io/traqify/">
+    <meta property="twitter:title" content="Traqify - Personal Finance Dashboard">
+    <meta property="twitter:description" content="Take control of your financial future with Traqify">
+    <meta property="twitter:image" content="https://yourusername.github.io/traqify/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Traqify Logo">
+                <span>Traqify</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#docs">Documentation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Take Control of Your <span class="gradient-text">Financial Future</span>
+                </h1>
+                <p class="hero-description">
+                    Traqify is a comprehensive personal finance management application that helps you track expenses, 
+                    manage budgets, monitor investments, and achieve your financial goals with beautiful, intuitive design.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Download Now
+                    </a>
+                    <a href="https://github.com/yourusername/traqify" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">7</span>
+                        <span class="stat-label">Modules</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Free</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Open</span>
+                        <span class="stat-label">Source</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-dashboard.png" alt="Traqify Dashboard">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features for Complete Financial Control</h2>
+                <p>Everything you need to manage your personal finances in one beautiful application</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Expense Tracking</h3>
+                    <p>Track your daily expenses with smart categorization and detailed analytics</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Goal Management</h3>
+                    <p>Set and monitor income goals with progress visualization and insights</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Investment Tracking</h3>
+                    <p>Monitor your investment portfolio performance with real-time updates</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Budget Planning</h3>
+                    <p>Create and track monthly budgets with variance analysis</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Task Management</h3>
+                    <p>Advanced to-do list with Google Tasks synchronization</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Habit Tracking</h3>
+                    <p>Build better habits with streak counting and progress tracking</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Attendance Management</h3>
+                    <p>Professional attendance tracking with holiday integration</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h3>Cloud Sync</h3>
+                    <p>Seamless data synchronization across devices with Firebase</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2>Beautiful Interface, Powerful Features</h2>
+                <p>See Traqify in action with our intuitive and modern design</p>
+            </div>
+            
+            <div class="screenshot-gallery">
+                <div class="screenshot-item">
+                    <img src="images/dashboard-light.png" alt="Main Dashboard">
+                    <div class="screenshot-overlay">
+                        <h3>Main Dashboard</h3>
+                        <p>Get an overview of all your financial data at a glance</p>
+                    </div>
+                </div>
+                
+                <div class="screenshot-item">
+                    <img src="images/expense-tracker.png" alt="Expense Tracker">
+                    <div class="screenshot-overlay">
+                        <h3>Expense Tracking</h3>
+                        <p>Detailed expense management with smart categorization</p>
+                    </div>
+                </div>
+                
+                <div class="screenshot-item">
+                    <img src="images/analytics.png" alt="Analytics">
+                    <div class="screenshot-overlay">
+                        <h3>Analytics & Reports</h3>
+                        <p>Comprehensive insights and visualizations</p>
+                    </div>
+                </div>
+                
+                <div class="screenshot-item">
+                    <img src="images/dark-mode.png" alt="Dark Mode">
+                    <div class="screenshot-overlay">
+                        <h3>Dark Mode</h3>
+                        <p>Beautiful dark theme for comfortable viewing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Ready to Take Control of Your Finances?</h2>
+                <p>Download Traqify now and start your journey to better financial management</p>
+                
+                <div class="download-options">
+                    <div class="download-card">
+                        <div class="download-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>Source Code</h3>
+                        <p>Get the complete source code and build it yourself</p>
+                        <a href="https://github.com/yourusername/traqify" class="btn btn-outline">
+                            <i class="fab fa-github"></i>
+                            View on GitHub
+                        </a>
+                    </div>
+                    
+                    <div class="download-card">
+                        <div class="download-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Documentation</h3>
+                        <p>Complete setup guide and documentation</p>
+                        <a href="docs.html" class="btn btn-outline">
+                            <i class="fas fa-book"></i>
+                            Read Docs
+                        </a>
+                    </div>
+                    
+                    <div class="download-card">
+                        <div class="download-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Quick Start</h3>
+                        <p>Get up and running in minutes with our quick start guide</p>
+                        <a href="#quickstart" class="btn btn-outline">
+                            <i class="fas fa-rocket"></i>
+                            Quick Start
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Traqify Logo">
+                        <span>Traqify</span>
+                    </div>
+                    <p>Empowering people to take control of their financial future, one transaction at a time.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/yourusername"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/yourprofile"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/yourusername"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#screenshots">Screenshots</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="docs.html">Documentation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="https://github.com/yourusername/traqify/issues">Report Bug</a></li>
+                        <li><a href="https://github.com/yourusername/traqify/discussions">Discussions</a></li>
+                        <li><a href="mailto:your.email@example.com">Contact</a></li>
+                        <li><a href="setup.html">Setup Guide</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Developer</h3>
+                    <ul>
+                        <li><a href="#contact">About Me</a></li>
+                        <li><a href="https://github.com/yourusername">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/yourprofile">LinkedIn</a></li>
+                        <li><a href="mailto:your.email@example.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Traqify. Made with ❤️ by [Your Name]. Licensed under MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

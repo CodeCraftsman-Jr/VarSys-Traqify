@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-07-15T03:14:56.495812",
+  "system_status": "GOOD",
+  "backends": {
+    "Render": {
+      "success": false,
+      "firebase_initialized": false
+    },
+    "Appwrite": {
+      "success": true,
+      "firebase_initialized": true,
+      "platform": "appwrite"
+    },
+    "Replit": {
+      "success": true,
+      "firebase_initialized": true,
+      "platform": "replit"
+    }
+  },
+  "service_discovery": {
+    "success": false,
+    "error": "'ServiceDiscovery' object has no attribute 'check_all_endpoints'"
+  },
+  "failover_client": {
+    "success": false,
+    "error": "'FailoverFirebaseClient' object has no attribute 'get_firebase_config'"
+  },
+  "summary": {
+    "working_backends": 2,
+    "firebase_backends": 2,
+    "firebase_backend_names": [
+      "Appwrite",
+      "Replit"
+    ]
+  }
+}

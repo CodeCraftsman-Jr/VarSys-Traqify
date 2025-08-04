@@ -1,0 +1,56 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting mftool
+  Downloading mftool-2.9.tar.gz (112 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: requests in c:\users\jagan\appdata\roaming\python\python313\site-packages (from mftool) (2.32.4)
+Collecting bs4 (from mftool)
+  Downloading bs4-0.0.2-py2.py3-none-any.whl.metadata (411 bytes)
+Requirement already satisfied: httpx in c:\users\jagan\appdata\roaming\python\python313\site-packages (from mftool) (0.28.1)
+Requirement already satisfied: pandas in c:\users\jagan\appdata\roaming\python\python313\site-packages (from mftool) (2.3.1)
+Requirement already satisfied: yfinance in c:\users\jagan\appdata\roaming\python\python313\site-packages (from mftool) (0.2.65)
+Collecting Deprecated (from mftool)
+  Downloading Deprecated-1.2.18-py2.py3-none-any.whl.metadata (5.7 kB)
+Requirement already satisfied: beautifulsoup4 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from bs4->mftool) (4.13.4)
+Requirement already satisfied: soupsieve>1.2 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from beautifulsoup4->bs4->mftool) (2.7)
+Requirement already satisfied: typing-extensions>=4.0.0 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from beautifulsoup4->bs4->mftool) (4.14.1)
+Collecting wrapt<2,>=1.10 (from Deprecated->mftool)
+  Downloading wrapt-1.17.2-cp313-cp313-win_amd64.whl.metadata (6.5 kB)
+Requirement already satisfied: anyio in c:\users\jagan\appdata\roaming\python\python313\site-packages (from httpx->mftool) (4.9.0)
+Requirement already satisfied: certifi in c:\users\jagan\appdata\roaming\python\python313\site-packages (from httpx->mftool) (2025.7.14)
+Requirement already satisfied: httpcore==1.* in c:\users\jagan\appdata\roaming\python\python313\site-packages (from httpx->mftool) (1.0.9)
+Requirement already satisfied: idna in c:\users\jagan\appdata\roaming\python\python313\site-packages (from httpx->mftool) (3.10)
+Requirement already satisfied: h11>=0.16 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from httpcore==1.*->httpx->mftool) (0.16.0)
+Requirement already satisfied: sniffio>=1.1 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from anyio->httpx->mftool) (1.3.1)
+Requirement already satisfied: numpy>=1.26.0 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from pandas->mftool) (2.3.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from pandas->mftool) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from pandas->mftool) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from pandas->mftool) (2025.2)
+Requirement already satisfied: six>=1.5 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from python-dateutil>=2.8.2->pandas->mftool) (1.17.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from requests->mftool) (3.4.2)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from requests->mftool) (1.26.20)
+Requirement already satisfied: multitasking>=0.0.7 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from yfinance->mftool) (0.0.12)
+Requirement already satisfied: platformdirs>=2.0.0 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from yfinance->mftool) (4.3.8)
+Requirement already satisfied: frozendict>=2.3.4 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from yfinance->mftool) (2.4.6)
+Requirement already satisfied: peewee>=3.16.2 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from yfinance->mftool) (3.18.2)
+Requirement already satisfied: curl_cffi>=0.7 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from yfinance->mftool) (0.12.0)
+Requirement already satisfied: protobuf>=3.19.0 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from yfinance->mftool) (6.31.1)
+Requirement already satisfied: websockets>=13.0 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from yfinance->mftool) (15.0.1)
+Requirement already satisfied: cffi>=1.12.0 in c:\users\jagan\appdata\roaming\python\python313\site-packages (from curl_cffi>=0.7->yfinance->mftool) (1.17.1)
+Requirement already satisfied: pycparser in c:\users\jagan\appdata\roaming\python\python313\site-packages (from cffi>=1.12.0->curl_cffi>=0.7->yfinance->mftool) (2.22)
+Downloading bs4-0.0.2-py2.py3-none-any.whl (1.2 kB)
+Downloading Deprecated-1.2.18-py2.py3-none-any.whl (10.0 kB)
+Downloading wrapt-1.17.2-cp313-cp313-win_amd64.whl (38 kB)
+Building wheels for collected packages: mftool
+  Building wheel for mftool (pyproject.toml): started
+  Building wheel for mftool (pyproject.toml): finished with status 'done'
+  Created wheel for mftool: filename=mftool-2.9-py3-none-any.whl size=116946 sha256=6c7a9b645463ca8bcb42123f0d5a820dcf14b1a80efd48bac3da08d295220bf6
+  Stored in directory: c:\users\jagan\appdata\local\pip\cache\wheels\ba\6f\5b\813ca8da28593ea7c8b17cf1421daa006eac605fd86a74e5a7
+Successfully built mftool
+Installing collected packages: wrapt, Deprecated, bs4, mftool
+
+Successfully installed Deprecated-1.2.18 bs4-0.0.2 mftool-2.9 wrapt-1.17.2

@@ -1,0 +1,13 @@
+{
+  "api_key": "enter here",
+  "api_secret": "enter here",
+  "sandbox_mode": false,
+  "auto_login": false,
+  "websocket_enabled": true,
+  "max_positions": 50,
+  "risk_management": {
+    "max_order_value": 100000,
+    "max_daily_loss": 10000,
+    "position_size_limit": 0.1
+  }
+}

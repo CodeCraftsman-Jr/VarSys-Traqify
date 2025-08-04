@@ -1,0 +1,6 @@
+{
+  "monitoring_interval": 30,
+  "metrics_retention_days": 7,
+  "alert_threshold": 3,
+  "last_updated": "2025-07-14T07:19:29.893006"
+}

@@ -1,0 +1,4 @@
+id,category,sub_category,is_active,created_at,updated_at,source
+1,Test Category,Test Subcategory,True,2025-07-31 11:23:00,2025-07-31 11:23:00,main_app
+2,Test Expense Cat,Test Expense Sub,True,2025-07-31 11:33:05,2025-07-31 11:33:05,main_app
+3,Test Income Cat,Test Income Sub,True,2025-07-31 11:33:05,2025-07-31 11:33:05,main_app

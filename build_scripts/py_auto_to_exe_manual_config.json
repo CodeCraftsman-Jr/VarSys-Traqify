@@ -1,0 +1,158 @@
+{
+  "version": "auto-py-to-exe-configuration_v1",
+  "pyinstallerOptions": [
+    {
+      "optionDest": "noconfirm",
+      "value": true
+    },
+    {
+      "optionDest": "filenames",
+      "value": "main.py"
+    },
+    {
+      "optionDest": "onefile",
+      "value": false
+    },
+    {
+      "optionDest": "console",
+      "value": false
+    },
+    {
+      "optionDest": "icon_file",
+      "value": "assets/icons/app_icon.png"
+    },
+    {
+      "optionDest": "name",
+      "value": "Traqify"
+    },
+    {
+      "optionDest": "add_data",
+      "value": [
+        "assets;assets",
+        "src;src",
+        "data;data",
+        "config;config",
+        "updates;updates",
+        "logs;logs",
+        "releases;releases",
+        "config.json;.",
+        "secure_firebase_config_replit.json;.",
+        "service_discovery_config.json;.",
+        "config/trading_config.json;config",
+        "requirements.txt;.",
+        "README.md;.",
+        "BUILD_CONFIGURATION_UPDATES.md;."
+      ]
+    },
+    {
+      "optionDest": "hidden_import",
+      "value": [
+        "PySide6.QtCore",
+        "PySide6.QtWidgets",
+        "PySide6.QtGui",
+        "pandas",
+        "numpy",
+        "matplotlib",
+        "seaborn",
+        "plotly",
+        "kiteconnect",
+        "cryptography",
+        "requests",
+        "json",
+        "src.core.config",
+        "src.core.data_manager",
+        "src.core.initialization_tracker",
+        "src.core.secure_config",
+        "src.core.secure_firebase_client",
+        "src.core.auto_updater",
+        "src.core.version_manager",
+        "src.core.update_downloader",
+        "src.core.update_installer",
+        "src.core.update_manager",
+        "src.core.update_system",
+        "src.core.firebase_sync",
+        "src.core.platform_monitor",
+        "src.ui.main_window",
+        "src.ui.loading_screen",
+        "src.ui.startup_login",
+        "src.ui.backend_selection_dialog",
+        "src.ui.service_discovery_widget",
+        "src.ui.settings_dialog",
+        "src.ui.update_dialogs",
+        "src.ui.update_dialog",
+        "src.ui.dashboard",
+        "src.ui.sidebar",
+        "src.ui.styles",
+        "src.ui.global_search",
+        "src.ui.smart_dashboard",
+        "src.ui.themes.manager",
+        "src.ui.themes.base",
+        "src.ui.themes.components",
+        "src.ui.simple_optimized_styles",
+        "src.ui.simple_theme_overlay",
+        "src.ui.plotly_theme",
+        "src.ui.secure_login_dialog",
+        "src.ui.optimized_styles",
+        "src.ui.theme_switch_overlay",
+        "src.ui.theme_performance_test",
+        "src.modules.expenses.widgets",
+        "src.modules.income.widgets",
+        "src.modules.habits.widgets",
+        "src.modules.attendance.widgets",
+        "src.modules.todos.widgets",
+        "src.modules.investments.widgets",
+        "src.modules.budget.widgets",
+        "src.modules.trading.widgets",
+        "src.modules.expenses.models",
+        "src.modules.income.models",
+        "src.modules.habits.models",
+        "src.modules.attendance.models",
+        "src.modules.todos.models",
+        "src.modules.investments.models",
+        "src.modules.budget.models",
+        "src.modules.trading.models",
+        "src.modules.expenses.advanced_analytics",
+        "src.modules.income.advanced_analytics",
+        "src.modules.investments.amfi_fetcher",
+        "src.modules.investments.price_fetcher",
+        "src.modules.investments.progressive_fetcher",
+        "src.modules.investments.symbol_recognition",
+        "src.modules.investments.data_availability_analyzer",
+        "src.modules.investments.data_storage",
+        "src.modules.investments.loading_widget",
+        "src.modules.investments.unavailability_widgets",
+        "src.modules.todo.analytics_dashboard",
+        "src.modules.todo.analytics_utils",
+        "src.modules.todo.interactive_charts",
+        "src.modules.todos.sync_worker"
+      ]
+    },
+    {
+      "optionDest": "collect_all",
+      "value": [
+        "PySide6",
+        "matplotlib",
+        "plotly",
+        "pandas",
+        "numpy",
+        "seaborn"
+      ]
+    },
+    {
+      "optionDest": "collect_submodules",
+      "value": [
+        "firebase_admin",
+        "google.cloud",
+        "kiteconnect",
+        "yfinance",
+        "mftool",
+        "plotly.graph_objects",
+        "plotly.express",
+        "plotly.subplots",
+        "sklearn",
+        "scipy",
+        "statsmodels"
+      ]
+    }
+  ]
+}

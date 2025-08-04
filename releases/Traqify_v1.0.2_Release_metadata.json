@@ -1,0 +1,27 @@
+{
+  "version": "1.0.2",
+  "release_date": "2025-07-17T12:42:50.059497",
+  "file_name": "Traqify_v1.0.2_Release.zip",
+  "file_size": 465463635,
+  "file_size_mb": 443.9,
+  "build_type": "Release",
+  "platform": "Windows",
+  "architecture": "x64",
+  "features": [
+    "Enhanced serverless secure authentication",
+    "Advanced backend selection dialog",
+    "Service discovery configuration",
+    "Secure Firebase client integration",
+    "Auto-update functionality",
+    "Personal finance tracking",
+    "Investment portfolio management",
+    "Data visualization and reports"
+  ],
+  "requirements": {
+    "os": "Windows 10 or later",
+    "architecture": "64-bit",
+    "memory": "4GB RAM minimum, 8GB recommended",
+    "storage": "500MB free disk space",
+    "network": "Internet connection required"
+  }
+}

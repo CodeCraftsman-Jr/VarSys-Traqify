@@ -1,0 +1,27 @@
+{
+  "platforms": {
+    "firebase": {
+      "platform": "firebase",
+      "name": "Firebase Direct Integration",
+      "url": "Enter Here",
+      "enabled": true,
+      "auto_deploy": false,
+      "deployment_script": "firebase deploy",
+      "environment_variables": {
+        "FIREBASE_PROJECT_ID": "Enter Here"
+      },
+      "health_check_endpoint": "/",
+      "deployment_timeout": 300
+    }
+  },
+  "global_settings": {
+    "parallel_deployments": false,
+    "deployment_order": [
+      "firebase"
+    ],
+    "stop_on_failure": false,
+    "health_check_after_deploy": false,
+    "rollback_on_failure": false,
+    "migration_note": "Migrated from Replit, Appwrite, and Render to Firebase-only architecture"
+  }
+}

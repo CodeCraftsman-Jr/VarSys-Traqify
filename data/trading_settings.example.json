@@ -1,0 +1,6 @@
+{
+  "api_key": "your_trading_api_key_here",
+  "api_secret": "your_trading_api_secret_here",
+  "sandbox_mode": true,
+  "auto_login": false
+}

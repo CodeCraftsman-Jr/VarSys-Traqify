@@ -1,0 +1,157 @@
+# ============================================================================
+# SECURITY: SENSITIVE FILES - NEVER COMMIT THESE TO PUBLIC REPOSITORY
+# ============================================================================
+
+# Firebase Configuration Files (contain API keys and secrets)
+config/secure_firebase_config.json
+secure_firebase_config*.json
+firebase_config.json
+firebase.json
+config/firebase.json
+
+# Firebase Service Account Keys
+*firebase-adminsdk*.json
+jointjourney-a12d2-firebase-adminsdk-*.json
+service-account*.json
+
+# Google OAuth Credentials and Tokens
+data/google_tasks_credentials.json
+data/config/google_oauth_credentials.json
+data/google_tasks_token.json
+google_oauth_credentials.json
+google_tasks_token.json
+
+# Authentication Session Files
+data/config/firebase_session.json
+data/config/secure_session.json
+firebase_session.json
+secure_session.json
+
+# Environment Files
+.env
+.env.*
+*.env
+backend/replit_backend/.env
+backend/**/.env
+
+# API Keys and Secrets
+*api_key*
+*secret*
+*token*
+*credentials*
+
+# User Data and Personal Information
+data/config/
+data/startup_auth_choice.json
+
+# ============================================================================
+# BUILD AND DISTRIBUTION
+# ============================================================================
+
+# Build and distribution directories
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build output directories
+build_scripts/py_auto_to_exe_output/
+build_scripts/output/
+*.spec
+
+# Specific build artifacts
+dist/installer/Traqify_Setup_v*.exe
+dist/PersonalFinanceDashboard/PersonalFinanceDashboard.exe
+hosting/apps/Traqify_v*_Update.zip
+
+# ============================================================================
+# DEVELOPMENT AND RUNTIME
+# ============================================================================
+
+# Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.Python
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and temporary files (may contain sensitive information)
+logs/
+*.log
+app_debug.log
+tmp/
+temp/
+.tmp/
+
+# Backup files (may contain sensitive data)
+*.backup
+*.bak
+*_backup.*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ============================================================================
+# DEPLOYMENT AND HOSTING
+# ============================================================================
+
+# Deployment specific
+.replit
+replit.nix
+hosting/
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================================================
+# DATA AND BACKUPS
+# ============================================================================
+
+# User data directories (contain personal information)
+data/attendance/
+data/budget/
+data/expenses/
+data/habits/
+data/income/
+data/investments/
+data/todos/
+data/test/
+
+# Trading and API configuration files
+data/trading_settings.json
+trading_settings.json
+
+# Backup files
+backups/
+*.backup
+*.bak
+
+# Update and cache files
+updates/
+*.cache

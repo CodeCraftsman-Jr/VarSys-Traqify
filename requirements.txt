@@ -1,0 +1,33 @@
+PySide6>=6.8.0
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+python-dateutil>=2.8.2
+openpyxl>=3.1.2
+xlsxwriter>=3.1.9
+Pillow>=10.1.0
+pyqtgraph>=0.13.3
+qdarkstyle>=3.2.3
+plotly>=5.17.0
+kaleido>=0.2.1
+requests>=2.31.0
+google-api-python-client>=2.110.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.1.0
+# Yahoo Finance API for price fetching
+yfinance>=0.2.18
+# Indian Mutual Fund NAV data
+mftool>=1.0.7
+# Zerodha API and Trading Dependencies
+kiteconnect>=4.2.0
+websocket-client>=1.6.0
+pycryptodome>=3.19.0
+
+# Firebase Dependencies
+firebase-admin>=6.4.0
+pyrebase4>=4.7.1
+cryptography>=41.0.0
+
+# Build Dependencies
+auto-py-to-exe>=2.46.0

@@ -1,0 +1,5 @@
+{
+  "selected_backend": "direct_firebase",
+  "timestamp": "2025-07-30T00:00:00.000000",
+  "migration_note": "Migrated from third-party backends to direct Firebase integration"
+}

@@ -1,0 +1,83 @@
+{
+  "endpoints": [
+    {
+      "name": "render",
+      "url": "https://traqify-api.onrender.com",
+      "priority": 1,
+      "timeout": 60,
+      "retry_attempts": 3,
+      "is_healthy": true,
+      "last_check": "2025-07-17 12:47:35.381858",
+      "response_time": 0.6279091835021973,
+      "error_count": 4,
+      "success_count": 191,
+      "last_error": null,
+      "platform_info": {
+        "debug": false,
+        "environment": "render",
+        "log_level": "INFO",
+        "platform_specific": {
+          "render_git_commit": "777eb734ca5187a6d8ceb8a170bca22632eafa00",
+          "render_service_id": "srv-d1qjaanfte5s73de77m0",
+          "render_service_name": "traqify-api"
+        },
+        "port": 10000,
+        "timeout": 120,
+        "workers": 2
+      },
+      "platform_type": "container",
+      "health_check_path": "/",
+      "ping_path": "/ping",
+      "region": "oregon",
+      "auto_sleep": false,
+      "cold_start": true
+    },
+    {
+      "name": "replit",
+      "url": "https://db3f8190-2a27-4a71-833d-b29b7322a59f-00-6vobooi81s0r.sisko.replit.dev",
+      "priority": 2,
+      "timeout": 90,
+      "retry_attempts": 2,
+      "is_healthy": false,
+      "last_check": "2025-07-17 16:12:53.370374",
+      "response_time": 0.17552590370178223,
+      "error_count": 136,
+      "success_count": 56,
+      "last_error": "Connection error",
+      "platform_info": {},
+      "platform_type": "container",
+      "health_check_path": "/",
+      "ping_path": "/ping",
+      "region": "us-east",
+      "auto_sleep": true,
+      "cold_start": true
+    },
+    {
+      "name": "appwrite",
+      "url": "https://fra.cloud.appwrite.io/v1/functions/traquify-backend-api/executions",
+      "priority": 3,
+      "timeout": 60,
+      "retry_attempts": 3,
+      "is_healthy": true,
+      "last_check": "2025-07-17 12:47:37.851484",
+      "response_time": 0.36625146865844727,
+      "error_count": 4,
+      "success_count": 201,
+      "last_error": null,
+      "platform_info": {
+        "platform": "appwrite",
+        "function_id": "traquify-backend-api",
+        "duration": 0.010357141494751,
+        "response_body": "{\"status\":\"healthy\",\"service\":\"Traquify Backend API - Clean\",\"platform\":\"appwrite\",\"timestamp\":\"2025-07-17T19:47:36.656471\",\"firebase_initialized\":true,\"version\":\"3.0.0\"}"
+      },
+      "platform_type": "serverless",
+      "health_check_path": "/",
+      "ping_path": "/ping",
+      "region": "fra",
+      "auto_sleep": false,
+      "cold_start": true
+    }
+  ],
+  "health_check_interval": 60,
+  "last_updated": "2025-07-17T12:47:38.853109"
+}

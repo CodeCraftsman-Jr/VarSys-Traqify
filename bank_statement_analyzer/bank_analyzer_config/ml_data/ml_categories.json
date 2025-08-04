@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ml_test_category_1",
+    "name": "Test Category",
+    "parent_id": null,
+    "description": "",
+    "is_active": true,
+    "is_system": false,
+    "color": "#007ACC",
+    "icon": "folder",
+    "category_type": "expense",
+    "created_at": "2025-07-31T11:23:00.738250",
+    "updated_at": "2025-07-31T11:23:00.738250"
+  },
+  {
+    "id": "ml_test_subcategory_2",
+    "name": "Test Subcategory",
+    "parent_id": "ml_test_category_1",
+    "description": "",
+    "is_active": true,
+    "is_system": false,
+    "color": "#007ACC",
+    "icon": "folder",
+    "category_type": "expense",
+    "created_at": "2025-07-31T11:23:00.738250",
+    "updated_at": "2025-07-31T11:23:00.738250"
+  },
+  {
+    "id": "ml_test_expense_cat_3",
+    "name": "Test Expense Cat",
+    "parent_id": null,
+    "description": "",
+    "is_active": true,
+    "is_system": false,
+    "color": "#007ACC",
+    "icon": "folder",
+    "category_type": "expense",
+    "created_at": "2025-07-31T11:33:05.610723",
+    "updated_at": "2025-07-31T11:33:05.610723"
+  },
+  {
+    "id": "ml_test_expense_sub_4",
+    "name": "Test Expense Sub",
+    "parent_id": "ml_test_expense_cat_3",
+    "description": "",
+    "is_active": true,
+    "is_system": false,
+    "color": "#007ACC",
+    "icon": "folder",
+    "category_type": "expense",
+    "created_at": "2025-07-31T11:33:05.610723",
+    "updated_at": "2025-07-31T11:33:05.610723"
+  },
+  {
+    "id": "ml_test_income_cat_5",
+    "name": "Test Income Cat",
+    "parent_id": null,
+    "description": "",
+    "is_active": true,
+    "is_system": false,
+    "color": "#007ACC",
+    "icon": "folder",
+    "category_type": "expense",
+    "created_at": "2025-07-31T11:33:05.693395",
+    "updated_at": "2025-07-31T11:33:05.693395"
+  },
+  {
+    "id": "ml_test_income_sub_6",
+    "name": "Test Income Sub",
+    "parent_id": "ml_test_income_cat_5",
+    "description": "",
+    "is_active": true,
+    "is_system": false,
+    "color": "#007ACC",
+    "icon": "folder",
+    "category_type": "expense",
+    "created_at": "2025-07-31T11:33:05.693395",
+    "updated_at": "2025-07-31T11:33:05.693395"
+  }
+]

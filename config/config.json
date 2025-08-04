@@ -1,0 +1,147 @@
+{
+  "app_name": "Personal Finance Dashboard",
+  "app_version": "1.0.9",
+  "data_directory": "data",
+  "backup_directory": "backups",
+  "auto_save_interval": 300,
+  "max_backup_files": 10,
+  "theme": "dark",
+  "sidebar_width": 250,
+  "sidebar_collapsed_width": 60,
+  "window_width": 1400,
+  "window_height": 900,
+  "remember_window_state": true,
+  "default_currency": "₹",
+  "date_format": "dd/MM/yyyy",
+  "decimal_places": 2,
+  "expense_categories": [
+    "Food & Dining",
+    "Transportation",
+    "Shopping",
+    "Entertainment",
+    "Bills & Utilities",
+    "Healthcare",
+    "Education",
+    "Travel",
+    "Personal Care",
+    "Gifts & Donations",
+    "Business",
+    "Other"
+  ],
+  "expense_subcategories": {
+    "Food & Dining": [
+      "Restaurants",
+      "Groceries",
+      "Fast Food",
+      "Coffee",
+      "Delivery"
+    ],
+    "Transportation": [
+      "Fuel",
+      "Public Transport",
+      "Taxi/Uber",
+      "Parking",
+      "Maintenance"
+    ],
+    "Shopping": [
+      "Clothing",
+      "Electronics",
+      "Books",
+      "Home & Garden",
+      "Groceries"
+    ],
+    "Entertainment": [
+      "Movies",
+      "Games",
+      "Sports",
+      "Hobbies",
+      "Subscriptions"
+    ],
+    "Bills & Utilities": [
+      "Electricity",
+      "Water",
+      "Internet",
+      "Phone",
+      "Insurance"
+    ],
+    "Healthcare": [
+      "Doctor",
+      "Pharmacy",
+      "Dental",
+      "Vision",
+      "Fitness"
+    ],
+    "Education": [
+      "Courses",
+      "Books",
+      "Supplies",
+      "Tuition",
+      "Certification"
+    ],
+    "Travel": [
+      "Flights",
+      "Hotels",
+      "Car Rental",
+      "Activities",
+      "Food"
+    ],
+    "Personal Care": [
+      "Haircut",
+      "Cosmetics",
+      "Spa",
+      "Clothing",
+      "Accessories"
+    ],
+    "Gifts & Donations": [
+      "Gifts",
+      "Charity",
+      "Tips",
+      "Religious",
+      "Social"
+    ],
+    "Business": [
+      "Office Supplies",
+      "Software",
+      "Equipment",
+      "Travel",
+      "Meals"
+    ],
+    "Other": [
+      "Miscellaneous",
+      "Unexpected",
+      "Emergency",
+      "Investment",
+      "Savings"
+    ]
+  },
+  "transaction_modes": [
+    "Cash",
+    "Credit Card",
+    "Debit Card",
+    "UPI",
+    "Net Banking",
+    "Wallet",
+    "Cheque",
+    "Bank Transfer",
+    "Other"
+  ],
+  "default_daily_goal": 1000.0,
+  "goal_currency": "₹",
+  "predefined_habits": [
+    "Face wash (Morning)",
+    "Face wash (Night)",
+    "Serum Application",
+    "Sunscreen Application",
+    "Study Session",
+    "Project Work",
+    "Aptitude Practice",
+    "Handwriting Practice",
+    "Record Updates",
+    "Exercise",
+    "Reading",
+    "Meditation"
+  ],
+  "total_periods": 8,
+  "attendance_threshold": 75.0,
+  "college_joining_year": 2024
+}
