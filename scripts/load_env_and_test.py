@@ -58,7 +58,7 @@ def test_environment():
         print("✅ FIREBASE_API_KEY: SET")
     else:
         print("❌ FIREBASE_API_KEY: NOT SET or using placeholder")
-    
+
     return bool(firebase_account and firebase_api_key and firebase_api_key != "your_firebase_api_key_here")
 
 def test_firebase_connection():
