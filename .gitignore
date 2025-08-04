@@ -155,3 +155,5 @@ backups/
 # Update and cache files
 updates/
 *.cache
+GITHUB_PUBLISHING_GUIDE.md
+PUBLIC_RELEASE_SUMMARY.md
